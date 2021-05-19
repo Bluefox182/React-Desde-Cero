@@ -1,4 +1,4 @@
-function sumar(a, b) {
+const sumar(a, b) {
   return a + b;
 }
 
