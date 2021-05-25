@@ -18,6 +18,14 @@
   <body>
     <div id="root"></div>
     <script type="text/babel">
+      const Interpolar = () => {
+        const name = prompt("Cual es tu nombre?");
+        return (
+          <div>
+            <h1>Bienvenido {name} </h1>
+          </div>
+        );
+      };
       ReactDOM.render(<Interpolar />, document.getElementById("root"));
     </script>
   </body>
