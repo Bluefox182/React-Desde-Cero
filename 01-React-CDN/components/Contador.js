@@ -5,11 +5,11 @@ const Counter = () => {
   const disminuir = () => setCounter(contador - 1);
   return (
     <div>
-      <h1>Counter: {contador} </h1>
+      <h1 className={contador < 0 ? "menor" : "mayor"}>Counter: {contador} </h1>
       <hr />
 
       <button onClick={aumentar}>Aumentar</button>
-      <button onClick={disminuir}>Aumentar</button>
+      <button onClick={disminuir}>Disminuir</button>
     </div>
   );
 };

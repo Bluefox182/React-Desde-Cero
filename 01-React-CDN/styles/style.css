@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: dimgrey;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.menor {
+  color: orangered;
+}
+
+.mayor {
+  color: palegreen;
+}
+
+button {
+  margin: 1px 0.5rem;
+  padding: 0.3rem 1rem;
+  border-radius: 0.4rem;
+  background-color: antiquewhite;
+  font-size: 1.3rem;
+}
